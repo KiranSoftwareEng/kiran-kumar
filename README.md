@@ -38,8 +38,8 @@ My expertise blends **AI, Web Development, DevOps, and Microservices**, with a f
 ---
 
 ## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)  
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=kiran-kumar&show_icons=true&theme=radical)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kiran-kumar&layout=compact&theme=radical)
 
 ---
 
