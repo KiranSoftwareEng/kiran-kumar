@@ -52,7 +52,7 @@ My expertise blends **AI, Web Development, DevOps, and Microservices**, with a f
 ---
 
 📫 **Reach me at:**  
-[LinkedIn](https://linkedin.com/in/YOUR_PROFILE) | [Portfolio Website](https://yourportfolio.com) | [Email](mailto:you@example.com)  
+[LinkedIn](https://www.linkedin.com/in/kirankumar-ai-fullstack/) | [Portfolio Website](https://yourportfolio.co) | [Email](mailto:kiran.softwareeng@gmail.com)  
 
 ---
 ⭐ _“Code with purpose. Build for impact.”_
