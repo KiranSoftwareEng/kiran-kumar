@@ -1,21 +1,202 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Build With Kiran</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        background: #0f172a;
-        color: #e5e7eb;
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Build With Kiran</title>
+
+  <meta name="description" content="Kiran Kumar P – Software Developer | Full Stack | Cloud. Live projects launching soon." />
+  <meta name="author" content="Kiran Kumar P" />
+
+  <style>
+    :root {
+      --bg: #0b1220;
+      --card: #111827;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #111827, #020617);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      background: linear-gradient(180deg, #020617, #020617) padding-box,
+                  linear-gradient(120deg, #38bdf8, #6366f1) border-box;
+      border: 1px solid transparent;
+      border-radius: 20px;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      background: linear-gradient(90deg, #38bdf8, #6366f1);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      color: var(--muted);
+      font-weight: 500;
+      margin-bottom: 25px;
+    }
+
+    .section {
+      margin-top: 35px;
+    }
+
+    .section h3 {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+      color: var(--accent);
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .tag {
+      background: #020617;
+      border: 1px solid #1f2937;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 15px;
+    }
+
+    .project {
+      background: #020617;
+      border: 1px solid #1f2937;
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    .project h4 {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    .project p {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .footer {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid #1f2937;
+      padding-top: 20px;
+    }
+
+    .links a {
+      margin-right: 15px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2.2rem;
       }
-      h1 { font-size: 3rem; }
-    </style>
-  </head>
-  <body>
-    <h1>🚀 Hello from BuildWithKiran</h1>
-  </body>
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Build With Kiran</h1>
+    <h2>Kiran Kumar P · Software Developer · Full Stack · Cloud</h2>
+
+    <div class="section">
+      <h3>About Me</h3>
+      <p style="color: var(--muted); line-height: 1.6;">
+        I am a software developer focused on building scalable web applications,
+        clean system architecture, and production-ready solutions.
+        This domain hosts my live projects, case studies, and experiments.
+      </p>
+    </div>
+
+    <div class="section">
+      <h3>Tech Stack</h3>
+      <div class="tags">
+        <div class="tag">JavaScript / TypeScript</div>
+        <div class="tag">React / Next.js</div>
+        <div class="tag">Node.js</div>
+        <div class="tag">REST APIs</div>
+        <div class="tag">SQL / NoSQL</div>
+        <div class="tag">Docker</div>
+        <div class="tag">AWS</div>
+        <div class="tag">CI/CD</div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h3>Coming Soon Projects</h3>
+      <div class="projects">
+        <div class="project">
+          <h4>AI Web Application</h4>
+          <p>End-to-end AI powered web app with scalable backend and clean UI.</p>
+        </div>
+        <div class="project">
+          <h4>SaaS Dashboard</h4>
+          <p>Multi-tenant SaaS platform with authentication, billing, and analytics.</p>
+        </div>
+        <div class="project">
+          <h4>System Design Case Studies</h4>
+          <p>Real-world architecture decisions, trade-offs, and scaling strategies.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div>
+        <strong>Contact</strong><br />
+        <span style="color: var(--muted);">
+          Email: kiran@buildwithkiran.com
+        </span>
+      </div>
+
+      <div class="links">
+        <a href="https://github.com/KiranSoftwareEng" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kirankumar-ai-fullstack/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+  </div>
+</body>
 </html>
