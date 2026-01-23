@@ -1,205 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Build With Kiran | Coming Soon</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Build With Kiran | Frontend DSA Roadmap</title>
 
-  <meta name="description" content="Build With Kiran – Software Developer portfolio. Full-stack, AI-driven, and production-ready applications coming soon."/>
-  <meta name="author" content="Kiran Kumar P"/>
+<meta name="description" content="Complete Frontend DSA Roadmap in JavaScript and TypeScript by Kiran Kumar P. Beginner to Master level syllabus with system design relevance."/>
+<meta name="author" content="Kiran Kumar P"/>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, sans-serif;
-    }
-
-    body {
-      background:
-        linear-gradient(rgba(2,6,23,0.88), rgba(2,6,23,0.96)),
-        url("hero.png") center/cover no-repeat fixed;
-      color: #e5e7eb;
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      padding: 24px;
-    }
-
-    .container {
-      max-width: 950px;
-      width: 100%;
-      background: rgba(2,6,23,0.85);
-      backdrop-filter: blur(6px);
-      border: 1px solid #1e293b;
-      border-radius: 18px;
-      padding: 42px;
-      box-shadow: 0 25px 80px rgba(0,0,0,0.7);
-    }
-
-    .badge {
-      display: inline-block;
-      background: #0f172a;
-      border: 1px solid #334155;
-      color: #38bdf8;
-      padding: 7px 16px;
-      border-radius: 20px;
-      font-size: 0.9rem;
-      margin-bottom: 22px;
-    }
-
-    h1 {
-      font-size: 3rem;
-      color: #f8fafc;
-      margin-bottom: 8px;
-    }
-
-    h2 {
-      font-size: 1.35rem;
-      font-weight: 400;
-      color: #94a3b8;
-      margin-bottom: 28px;
-    }
-
-    p {
-      font-size: 1.05rem;
-      line-height: 1.7;
-      color: #cbd5f5;
-      margin-bottom: 22px;
-    }
-
-    .section {
-      margin-top: 34px;
-    }
-
-    .section h3 {
-      font-size: 1.25rem;
-      margin-bottom: 14px;
-      color: #f1f5f9;
-    }
-
-    ul {
-      list-style: none;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-    }
-
-    li {
-      background: #020617;
-      border: 1px solid #1e293b;
-      padding: 14px 16px;
-      border-radius: 12px;
-      font-size: 0.95rem;
-      color: #e5e7eb;
-    }
-
-    .projects li {
-      color: #38bdf8;
-    }
-
-    .footer {
-      margin-top: 42px;
-      padding-top: 22px;
-      border-top: 1px solid #1e293b;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      align-items: center;
-      gap: 16px;
-    }
-
-    .links a {
-      color: #38bdf8;
-      text-decoration: none;
-      margin-right: 18px;
-      font-size: 0.95rem;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-    }
-
-    .copyright {
-      font-size: 0.85rem;
-      color: #64748b;
-    }
-
-    @media (max-width: 600px) {
-      h1 {
-        font-size: 2.2rem;
-      }
-      .container {
-        padding: 30px;
-      }
-    }
-  </style>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Tahoma,sans-serif;}
+body{
+background:linear-gradient(rgba(2,6,23,.9),rgba(2,6,23,.97)),url("hero.png") center/cover no-repeat fixed;
+color:#e5e7eb;min-height:100vh;display:flex;justify-content:center;padding:24px;
+}
+.container{
+max-width:1200px;width:100%;background:rgba(2,6,23,.9);border:1px solid #1e293b;
+border-radius:18px;padding:40px;box-shadow:0 25px 80px rgba(0,0,0,.7);
+}
+.badge{background:#0f172a;border:1px solid #334155;color:#38bdf8;padding:8px 16px;border-radius:20px;font-size:.9rem;display:inline-block;margin-bottom:18px;}
+h1{font-size:2.8rem;margin-bottom:6px;color:#f8fafc;}
+h2{font-size:1.3rem;font-weight:400;color:#94a3b8;margin-bottom:20px;}
+p{color:#cbd5f5;line-height:1.7;margin-bottom:18px;}
+.section{margin-top:38px;}
+.section h3{font-size:1.4rem;margin-bottom:14px;color:#f1f5f9;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;}
+.card{
+background:#020617;border:1px solid #1e293b;border-radius:14px;padding:14px 16px;font-size:.92rem;
+}
+.card strong{color:#38bdf8;}
+.footer{margin-top:40px;padding-top:20px;border-top:1px solid #1e293b;display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;}
+a{color:#38bdf8;text-decoration:none;}
+a:hover{text-decoration:underline;}
+.small{font-size:.85rem;color:#64748b;}
+@media(max-width:600px){h1{font-size:2.1rem;} .container{padding:28px;}}
+</style>
 </head>
 
 <body>
-  <div class="container">
+<div class="container">
 
-    <span class="badge">🚀 Portfolio Live · Projects Coming Soon</span>
+<span class="badge">🚀 Frontend DSA Master Roadmap</span>
+<h1>Build With Kiran</h1>
+<h2>Kiran Kumar P · Senior Frontend / Full-Stack Developer</h2>
 
-    <h1>Build With Kiran</h1>
-    <h2>Kiran Kumar P · Software Developer</h2>
+<p>
+Complete <b>Data Structures & Algorithms syllabus in JavaScript + TypeScript</b>,
+designed specifically for <b>Frontend Engineers</b> targeting product companies,
+FAANG, and AI-based interviews.
+</p>
 
-    <p>
-      Welcome to my live portfolio domain. This site is deployed, managed,
-      and maintained by me. I specialize in building scalable, secure,
-      and production-ready full-stack applications.
-    </p>
+<!-- ================= LEVEL 0 ================= -->
+<div class="section" id="level-0">
+<h3>Level 0 — Programming Foundations</h3>
+<div class="grid">
+<div class="card"><strong>JavaScript Core</strong><br/>Scopes, Hoisting, Closures, this, Call/Apply/Bind, Prototypes</div>
+<div class="card"><strong>Async JS</strong><br/>Event Loop, Promises, Async/Await, Microtasks, Web APIs</div>
+<div class="card"><strong>TypeScript</strong><br/>Types, Interfaces, Generics, Enums, Utility Types</div>
+<div class="card"><strong>OOP</strong><br/>Classes, Inheritance, Polymorphism, Composition</div>
+<div class="card"><strong>Big-O</strong><br/>Time, Space, Amortized Complexity</div>
+<div class="card"><strong>Recursion Basics</strong><br/>Stack Frames, Tail Recursion</div>
+</div>
+</div>
 
-    <p>
-      This space will showcase real-world projects, AI-driven systems,
-      architecture decisions, and complete end-to-end deployments.
-    </p>
+<!-- ================= LEVEL 1 ================= -->
+<div class="section">
+<h3>Level 1 — Arrays & Math</h3>
+<div class="grid">
+<div class="card">Traversal, Rotation, Sorting, Searching</div>
+<div class="card">Prefix Sum, Difference Array</div>
+<div class="card">Two Pointer Technique</div>
+<div class="card">Sliding Window (fixed & dynamic)</div>
+<div class="card">Kadane’s Algorithm</div>
+<div class="card">Binary Search Variants</div>
+<div class="card">Math: GCD, LCM, Modulo, Powers</div>
+<div class="card">Bitwise Basics</div>
+</div>
+</div>
 
-    <div class="section">
-      <h3>🛠 Tech Stack</h3>
-      <ul>
-        <li>JavaScript / TypeScript</li>
-        <li>React / Next.js</li>
-        <li>Node.js & REST APIs</li>
-        <li>HTML5 / CSS3</li>
-        <li>SQL & NoSQL Databases</li>
-        <li>Docker & Cloud Fundamentals</li>
-      </ul>
-    </div>
+<!-- ================= LEVEL 2 ================= -->
+<div class="section">
+<h3>Level 2 — Strings & Hashing</h3>
+<div class="grid">
+<div class="card">Character Frequency Maps</div>
+<div class="card">Anagram Detection</div>
+<div class="card">Palindrome Techniques</div>
+<div class="card">Substring Search</div>
+<div class="card">Rolling Hash</div>
+<div class="card">Rabin-Karp</div>
+<div class="card">Set Operations</div>
+<div class="card">Custom HashMap Design</div>
+</div>
+</div>
 
-    <div class="section">
-      <h3>📌 Upcoming Projects</h3>
-      <ul class="projects">
-        <li>AI-Powered Full-Stack Application</li>
-        <li>SaaS Platform (Auth, Payments)</li>
-        <li>System Design & Architecture Case Study</li>
-        <li>Production-Grade Web Application</li>
-      </ul>
-    </div>
+<!-- ================= LEVEL 3 ================= -->
+<div class="section">
+<h3>Level 3 — Recursion & Backtracking</h3>
+<div class="grid">
+<div class="card">Subsets & Power Sets</div>
+<div class="card">Permutations</div>
+<div class="card">Combinations</div>
+<div class="card">N-Queens</div>
+<div class="card">Sudoku Solver</div>
+<div class="card">Maze Problems</div>
+<div class="card">Decision Trees</div>
+</div>
+</div>
 
-    <div class="section">
-      <h3>📬 Contact</h3>
-      <p>
-        📧 Email:
-        <a href="mailto:kiran@buildwithkiran.com" style="color:#38bdf8;">
-          kiran@buildwithkiran.com
-        </a><br/>
-        🌐 Domain: <strong>buildwithkiran.com</strong>
-      </p>
-    </div>
+<!-- ================= LEVEL 4 ================= -->
+<div class="section">
+<h3>Level 4 — Linked Lists</h3>
+<div class="grid">
+<div class="card">Singly & Doubly Linked List</div>
+<div class="card">Fast/Slow Pointer</div>
+<div class="card">Cycle Detection</div>
+<div class="card">Reverse in Groups</div>
+<div class="card">Merge Sorted Lists</div>
+<div class="card">LRU Cache Base</div>
+</div>
+</div>
 
-    <div class="footer">
-      <div class="links">
-        <a href="https://github.com/KiranSoftwareEng" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/kirankumar-ai-fullstack/" target="_blank">LinkedIn</a>
-      </div>
-      <div class="copyright">
-        © 2025 Build With Kiran. All rights reserved.
-      </div>
-    </div>
+<!-- ================= LEVEL 5 ================= -->
+<div class="section">
+<h3>Level 5 — Stack & Queue</h3>
+<div class="grid">
+<div class="card">Array & Linked Stack</div>
+<div class="card">Infix/Postfix</div>
+<div class="card">Monotonic Stack</div>
+<div class="card">Undo/Redo Systems</div>
+<div class="card">Circular Queue</div>
+<div class="card">Deque</div>
+<div class="card">Sliding Window Maximum</div>
+</div>
+</div>
 
-  </div>
+<!-- ================= LEVEL 6 ================= -->
+<div class="section">
+<h3>Level 6 — Trees & Tries</h3>
+<div class="grid">
+<div class="card">Binary Tree Traversals</div>
+<div class="card">Height, Diameter</div>
+<div class="card">Balanced Trees</div>
+<div class="card">BST Insert/Delete</div>
+<div class="card">Kth Smallest</div>
+<div class="card">Trie Auto-Suggest</div>
+<div class="card">DOM Tree Traversal</div>
+</div>
+</div>
+
+<!-- ================= LEVEL 7 ================= -->
+<div class="section">
+<h3>Level 7 — Heap & Priority Queue</h3>
+<div class="grid">
+<div class="card">Min/Max Heap</div>
+<div class="card">Top-K Elements</div>
+<div class="card">Median from Stream</div>
+<div class="card">Task Scheduling</div>
+<div class="card">Merge K Lists</div>
+</div>
+</div>
+
+<!-- ================= LEVEL 8 ================= -->
+<div class="section">
+<h3>Level 8 — Graphs</h3>
+<div class="grid">
+<div class="card">Adjacency List/Matrix</div>
+<div class="card">BFS / DFS</div>
+<div class="card">Cycle Detection</div>
+<div class="card">Topological Sort</div>
+<div class="card">Dijkstra</div>
+<div class="card">Union-Find</div>
+<div class="card">Dependency Graphs</div>
+</div>
+</div>
+
+<!-- ================= LEVEL 9 ================= -->
+<div class="section">
+<h3>Level 9 — Greedy Algorithms</h3>
+<div class="grid">
+<div class="card">Activity Selection</div>
+<div class="card">Interval Scheduling</div>
+<div class="card">Jump Game</div>
+<div class="card">Huffman Coding</div>
+<div class="card">Fractional Knapsack</div>
+</div>
+</div>
+
+<!-- ================= LEVEL 10 ================= -->
+<div class="section">
+<h3>Level 10 — Dynamic Programming</h3>
+<div class="grid">
+<div class="card">Memoization vs Tabulation</div>
+<div class="card">0/1 Knapsack</div>
+<div class="card">LCS / LIS</div>
+<div class="card">Grid DP</div>
+<div class="card">Partition DP</div>
+<div class="card">DP on Trees</div>
+<div class="card">Bitmask DP</div>
+</div>
+</div>
+
+<!-- ================= LEVEL 11 ================= -->
+<div class="section">
+<h3>Level 11 — Advanced Algorithms</h3>
+<div class="grid">
+<div class="card">KMP Pattern Search</div>
+<div class="card">Manacher’s Algorithm</div>
+<div class="card">Segment Tree</div>
+<div class="card">Fenwick Tree</div>
+<div class="card">Mo’s Algorithm</div>
+<div class="card">A* Pathfinding</div>
+</div>
+</div>
+
+<!-- ================= LEVEL 12 ================= -->
+<div class="section">
+<h3>Level 12 — Frontend System DSA</h3>
+<div class="grid">
+<div class="card">Virtual DOM Diffing</div>
+<div class="card">LRU Cache Design</div>
+<div class="card">Debounce & Throttle</div>
+<div class="card">Search Auto-Complete</div>
+<div class="card">Infinite Scroll Buffer</div>
+<div class="card">Drag-Drop Reordering</div>
+<div class="card">Undo/Redo Architecture</div>
+<div class="card">State Normalization</div>
+</div>
+</div>
+
+<!-- ================= FOOTER ================= -->
+<div class="footer">
+<div>
+<a href="https://github.com/KiranSoftwareEng" target="_blank">GitHub</a> ·
+<a href="https://www.linkedin.com/in/kirankumar-ai-fullstack/" target="_blank">LinkedIn</a> ·
+<a href="mailto:kiran@buildwithkiran.com">kiran@buildwithkiran.com</a>
+</div>
+<div class="small">© 2025 Build With Kiran — All Rights Reserved</div>
+</div>
+
+</div>
 </body>
 </html>
